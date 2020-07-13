@@ -22,6 +22,9 @@ buttons.forEach(btn =>{
         screen.innerText = screenInput ;
         
 
+    }else if(btnTxt =='C'){
+       screenInput= screenInput.slice(0,-1);
+       screen.innerText = screenInput;
     }
     else if(btnTxt == '='){
        
