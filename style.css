@@ -8,20 +8,23 @@ header {
 }
 
 .calc-body {
-    height: 400px;
+    height: 430px;
     width: 300px;
-    border: 2px solid aqua;
+    border: 2px solid #54c8ff;
     border-radius: 15px;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 2em;
 }
 
 .screen {
     height: 60px;
-    border: 2px solid aqua;
-    margin: 12px;
-    width: auto;
-    border-radius: 9px;
+border: 2px solid #54c8ff;
+margin: 12px;
+width: auto;
+border-radius: 9px;
+padding: 3px 6px;
+font-size: 24px;
 }
 
 .button-area {
